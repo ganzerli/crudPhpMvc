@@ -2,16 +2,16 @@
 
 // DATABASE PARAMS
 define("DB_HOST","localhost");
-define("DB_USER" , "root" );
-define("DB_PASS", "123456");
-define("DB_NAME", "gmvc");
+define("DB_USER" , "_DB_USER_" );
+define("DB_PASS", "_PASSWORD_");
+define("DB_NAME", "_DB_NAME_");
 
 // App Root
 define("APPROOT" , dirname(dirname(__FILE__))) ;
 // example:-->     C:\xampp\htdocs\ganzerlimvc\app         in this machine..      
 
 //URL ROOT
-define("URLROOT", "http://localhost/ganzerlimvc/public");
+define("URLROOT", "_URL_TO_PUBLIC");
 //Site Name
-define("SITENAME", "GanzerliMVC");
+define("SITENAME", "_SITE_NAME_");
 
