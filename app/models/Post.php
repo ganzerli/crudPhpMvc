@@ -9,4 +9,9 @@ class Post {
     // this model is to load with the controller, the core Controller class has the method model(), 
     // require_once "../app/models/".$model.".php";    and returns new $model(); 
     // it will look in the models folder for watever the arg of the function is.. in this case is Post, and then  will return new Post
+    public function getPosts(){
+        $this->db->query("SELECT * FROM posts");
+        return $this->db->resultSet();
+    }
+    // this method shouldbe called from the controller, Pages in this case
 }

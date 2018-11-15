@@ -96,3 +96,5 @@ also for the PDO is easier to define the cinstants in  config
 the defined config constants for database can be used in the Database.php library
 
 the Database clas is used in the models
+
+with the Database class the controllers can call the model and the model qeries the database, with the result a variable can be passed into the view frpm the controller once got the result set from DB.
